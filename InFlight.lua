@@ -170,7 +170,7 @@ function InFlight:LoadBulk()  -- called from InFlight_Load
 	end
 
 	-- Check that this is the right version of the client
-	if select(4, GetBuildInfo()) > 20000 then
+	if select(4, GetBuildInfo()) > 20503 then
 		Print(L["AddonDisabled"])
 		DisableAddOn("InFlight")
 		return
@@ -467,7 +467,7 @@ do  -- timer bar
 		spark:SetWidth(16)
 		spark:SetBlendMode("ADD")
 
-		bord = CreateFrame("Frame", nil, sb)  -- border/background
+		bord = CreateFrame("Frame", nil, sb, BackdropTemplateMixin and "BackdropTemplate")  -- border/background
 		SetPoints(bord, "TOPLEFT", sb, "TOPLEFT", -5, 5, "BOTTOMRIGHT", sb, "BOTTOMRIGHT", 5, -5)
 		bord:SetFrameStrata("LOW")
 
