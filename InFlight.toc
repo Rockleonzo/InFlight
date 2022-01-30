@@ -16,7 +16,7 @@
 
 ## SavedVariables: InFlightDB
 ## Dependencies: InFlight_Load
-## OptionalDeps: Ace3, LibSharedMedia-3.0
+## OptionalDeps: Ace3, LibSharedMedia
 
 ## LoadOnDemand: 1
 
