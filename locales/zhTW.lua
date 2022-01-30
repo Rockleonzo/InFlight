@@ -1,4 +1,4 @@
-local L = LibStub("AceLocale-3.0"):NewLocale("InFlight", "zhTW")
+local L = LibStub("AceLocale"):NewLocale("InFlight", "zhTW")
 if not L then return end
 
 L["AddonDisabled"] = "檢測到錯誤的客戶端版本：禁用插件"
@@ -38,7 +38,7 @@ L["UnknownColor"] = "未知顏色"
 L["Width"] = "寬度"
 
 -- Flight point localisations
-local FL = LibStub("AceLocale-3.0"):NewLocale("InFlightLoc", "zhTW")
+local FL = LibStub("AceLocale"):NewLocale("InFlightLoc", "zhTW")
 if not FL then return end
 
 FL["Aerie Peak"] = "鷹巢山"

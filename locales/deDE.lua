@@ -1,4 +1,4 @@
-local L = LibStub("AceLocale-3.0"):NewLocale("InFlight", "deDE")
+local L = LibStub("AceLocale"):NewLocale("InFlight", "deDE")
 if not L then return end
 
 L["AddonDisabled"] = "Falsche Client-Version erkannt: Addon wird deaktiviert"
@@ -38,7 +38,7 @@ L["UnknownColor"] = "Unbekannt-Farbe"
 L["Width"] = "Breite"
 
 -- Flight point localisations
-local FL = LibStub("AceLocale-3.0"):NewLocale("InFlightLoc", "deDE")
+local FL = LibStub("AceLocale"):NewLocale("InFlightLoc", "deDE")
 if not FL then return end
 
 FL["Aerie Peak"] = true

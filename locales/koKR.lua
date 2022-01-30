@@ -1,4 +1,4 @@
-local L = LibStub("AceLocale-3.0"):NewLocale("InFlight", "koKR")
+local L = LibStub("AceLocale"):NewLocale("InFlight", "koKR")
 if not L then return end
 
 L["AddonDisabled"] = "클라이언트 버전이 잘못 감지되었습니다 : 애드온 비활성화"
@@ -38,7 +38,7 @@ L["UnknownColor"] = "모르는 경로 색상"
 L["Width"] = "길이"
 
 -- Flight point localisations
-local FL = LibStub("AceLocale-3.0"):NewLocale("InFlightLoc", "koKR")
+local FL = LibStub("AceLocale"):NewLocale("InFlightLoc", "koKR")
 if not FL then return end
 
 FL["Aerie Peak"] = "맹금의 봉우리"
