@@ -12,11 +12,11 @@
 ## Notes-zhCN: 您的航班路径的状态栏计时器
 ## Notes-zhTW: 您的航班路徑的狀態欄計時器
 ## Author: TotalPackage
-## Version: 2.5.3.0
+## Version: 2.5.3.1
 
 ## SavedVariables: InFlightDB
 ## Dependencies: InFlight_Load
-## OptionalDeps: Ace3, LibSharedMedia-3.0
+## OptionalDeps: Ace3, LibSharedMedia
 
 ## LoadOnDemand: 1
 

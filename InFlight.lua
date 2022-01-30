@@ -10,7 +10,7 @@ local oldTakeTaxiNode
 InFlight.debug = false
 
 -- LIBRARIES
-local smed = LibStub("LibSharedMedia-3.0")
+local smed = LibStub("LibSharedMedia")
 
 -- LOCAL VARIABLES
 local debug = InFlight.debug
@@ -23,8 +23,8 @@ local sb, spark, timeText, locText, bord					-- frame elements
 local totalTime, startTime, elapsed, throt = 0, 0, 0, 0		-- throttle vars
 
 -- LOCALIZATION
-local L = LibStub("AceLocale-3.0"):GetLocale("InFlight", not debug)
-local FL = LibStub("AceLocale-3.0"):GetLocale("InFlightLoc", not debug)
+local L = LibStub("AceLocale"):GetLocale("InFlight", not debug)
+local FL = LibStub("AceLocale"):GetLocale("InFlightLoc", not debug)
 InFlight.L = L
 
 -- LOCAL FUNCTIONS
@@ -272,7 +272,7 @@ function InFlight:LoadBulk()  -- called from InFlight_Load
 	if not debug then
 		InFlight.defaults.global[faction == "Alliance" and "Horde" or "Alliance"] = nil
 	end
-	self.db = LibStub("AceDB-3.0"):New("InFlightDB", self.defaults, true)
+	self.db = LibStub("AceDB"):New("InFlightDB", self.defaults, true)
 	db = self.db.profile
 	vars = self.db.global[faction]
 

@@ -1,0 +1,15 @@
+[submodule "libs/LibStub"]
+	path = libs/LibStub
+	url = git@github.com:Rockleonzo/LibStub.git
+[submodule "libs/AceDB"]
+	path = libs/AceDB
+	url = git@github.com:Rockleonzo/AceDB.git
+[submodule "libs/AceLocale"]
+	path = libs/AceLocale
+	url = git@github.com:Rockleonzo/AceLocale.git
+[submodule "libs/CallbackHandler"]
+	path = libs/CallbackHandler
+	url = git@github.com:Rockleonzo/CallbackHandler.git
+[submodule "libs/LibSharedMedia"]
+	path = libs/LibSharedMedia
+	url = git@github.com:Rockleonzo/LibSharedMedia.git
